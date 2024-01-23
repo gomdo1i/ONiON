@@ -13,7 +13,7 @@ h1 {
     text-align: center;
 }
 
-.mem-list li {
+.box {
     padding: 0;
     margin: 20px;
     overflow: hidden;
@@ -21,14 +21,10 @@ h1 {
     display: inline-block;
 }
 
-.mem-list li img {
+.box img {
     width: 250px;
     margin: 0;
     padding: 0;
     float:left;
+    margin-bottom: 50px;
 }
-
-.profile h2 {
-    margin-top: 50px;
-}
-
