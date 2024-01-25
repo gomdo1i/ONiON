@@ -13,18 +13,36 @@ h1 {
     text-align: center;
 }
 
-.box {
+.box-white {
     padding: 0;
     margin: 20px;
     overflow: hidden;
     text-align: center;
     display: inline-block;
+    border-radius: 5%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
 }
 
-.box img {
+.box-black {
+    padding: 0;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.box-black img, .box-white img {
     width: 250px;
     margin: 0;
     padding: 0;
     float:left;
     margin-bottom: 50px;
+}
+
+.box-black h2, .box-black p {
+    color: white;
 }
